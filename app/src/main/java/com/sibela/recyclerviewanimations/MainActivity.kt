@@ -1,5 +1,6 @@
 package com.sibela.recyclerviewanimations
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.sibela.recyclerviewanimations.databinding.ActivityMainBinding
@@ -15,7 +16,7 @@ class MainActivity : AppCompatActivity() {
 
         binding.apply {
             fallDownButton.setOnClickListener {
-
+                startActivity(Intent(this@MainActivity, FallDownActivity::class.java))
             }
 
             slideInButton.setOnClickListener {
