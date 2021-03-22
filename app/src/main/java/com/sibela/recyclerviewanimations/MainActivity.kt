@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
             }
 
             slideInButton.setOnClickListener {
-
+                startActivity(Intent(this@MainActivity, SlideInActivity::class.java))
             }
 
             scaleUpButton.setOnClickListener {
