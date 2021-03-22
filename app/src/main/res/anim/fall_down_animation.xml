@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Layout animation for linear layout manager recyclerview
+     for gird layout manager there is gridLayoutAnimation tag -->
+
+<!-- delay between items animations -->
+
+<!-- animation order: normal (bottom to top),  reverse (top to bottom) and random -->
+<layoutAnimation xmlns:android="http://schemas.android.com/apk/res/android"
+    android:animation="@anim/fall_down"
+    android:animationOrder="normal"
+    android:delay="15%">
+
+</layoutAnimation>
