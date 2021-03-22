@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">RecyclerView Animations</string>
+    <string name="slide_in_animation">Slide in Animation</string>
+    <string name="fall_down_animation">Fall down animation</string>
+    <string name="scale_up_animation">Scale Up Animation</string>
 </resources>
