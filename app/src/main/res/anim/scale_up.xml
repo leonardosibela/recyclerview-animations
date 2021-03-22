@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- There will be a alpha effect from 0% to 100% with a 400 milliseconds duration -->
+    <alpha
+        android:duration="400"
+        android:fromAlpha="0"
+        android:toAlpha="1" />
+
+    <!-- There will be a scale up effect on the y and x axes
+         this scale animation will go from 0% to 100%
+          we chose pivotX and pivotY so it starts from 50% on both axes -->
+    <scale
+        android:duration="400"
+        android:fromXScale="0"
+        android:fromYScale="0"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:toXScale="1"
+        android:toYScale="1" />
+
+</set>
