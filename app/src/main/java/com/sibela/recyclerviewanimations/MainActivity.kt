@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
             }
 
             scaleUpButton.setOnClickListener {
-
+                startActivity(Intent(this@MainActivity, ScaleUpActivity::class.java))
             }
         }
     }
