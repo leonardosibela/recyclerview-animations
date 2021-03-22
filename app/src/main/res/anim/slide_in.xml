@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- There will be a alpha effect from 0% to 100% with a 400 milliseconds duration -->
+    <alpha
+        android:duration="400"
+        android:fromAlpha="0"
+        android:toAlpha="1" />
+
+    <!-- There will be a slide effect on the x axis from -100% to 0%
+        This means it will slide from the left to the right with a 400 milliseconds duration -->
+    <translate
+        android:duration="400"
+        android:fromXDelta="-100%"
+        android:toXDelta="0%" />
+
+</set>
